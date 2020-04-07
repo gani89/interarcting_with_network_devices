@@ -1,0 +1,16 @@
+Netmiko commonly-used methods:
+    net_connect.send_command() - Send command down the channel, return output back (pattern based)
+    net_connect.send_command_timing() - Send command down the channel, return output back (timing based)
+    net_connect.send_config_set() - Send configuration commands to remote device
+    net_connect.send_config_from_file() - Send configuration commands loaded from a file
+    net_connect.save_config() - Save the running-config to the startup-config
+    net_connect.enable() - Enter enable mode
+    net_connect.find_prompt() - Return the current router prompt
+    net_connect.commit() - Execute a commit action on Juniper and IOS-XR
+    net_connect.disconnect() - Close the connection
+    net_connect.write_channel() - Low-level write of the channel
+    net_connect.read_channel() - Low-level write of the channel
+	
+Other used links:
+	https://pynet.twb-tech.com/blog/automation/netmiko.html
+	https://github.com/ktbyers/netmiko/tree/develop/examples
